@@ -116,7 +116,7 @@ El proyecto quedó organizado en tres etapas completas:
 - Etapa 3: testing asistido por IA
 
 
-## INFO IMPORTANTE :) 
+# INFO IMPORTANTE :) 
 - Este repositorio complementa al sistema principal de Estadística y Probabilidad, que fue utilizado como software bajo prueba.
 
 - https://github.com/joagonzalez26/sistema-estadistica-y-probabilidad
@@ -126,7 +126,7 @@ El proyecto quedó organizado en tres etapas completas:
 
 Joaquín Lorenzo González
 
-- Estudiante de Licenciatura en Informática
+- Estudiante de informática
 - Universidad Empresarial Siglo 21
 
 ![Selenium](https://img.shields.io/badge/Selenium-43B02A?style=for-the-badge&logo=selenium&logoColor=white)
