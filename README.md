@@ -6,11 +6,11 @@
 En esta primera etapa trabajé como QA manual sobre el sistema, enfocándome en comprender su funcionamiento, validar la navegación, probar funcionalidades principales y sobre todo documentar hallazgos reales.
 
 ## Entregables incluidos
-plan de pruebas
-casos de prueba
-ejecución de pruebas
-reporte de bugs
-checklist de regresión
+plan de pruebas,
+casos de prueba,
+ejecución de pruebas,
+reporte de bugs,
+checklist de regresión,
 evidencias
 
 Tipos de pruebas aplicadas
