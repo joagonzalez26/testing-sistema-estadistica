@@ -1,7 +1,7 @@
 ## <img width="863" height="486" alt="Captura de pantalla 2026-03-26 a la(s) 08 42 09" src="https://github.com/user-attachments/assets/1801c003-a3b8-4c1c-b9a2-bf0198241d35" />
 
 
-# 📝 Etapa 1 - Testing manual
+# Etapa 1 - Testing manual
 
 En esta primera etapa trabajé como QA manual sobre el sistema, enfocándome en comprender su funcionamiento, validar la navegación, probar funcionalidades principales y sobre todo documentar hallazgos reales.
 
