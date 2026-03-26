@@ -1,11 +1,11 @@
 ## <img width="863" height="486" alt="Captura de pantalla 2026-03-26 a la(s) 08 42 09" src="https://github.com/user-attachments/assets/1801c003-a3b8-4c1c-b9a2-bf0198241d35" />
 
 
-# 📝 Etapa 1 - Testing manual
+## 📝 Etapa 1 - Testing manual
 
 En esta primera etapa trabajé como QA manual sobre el sistema, enfocándome en comprender su funcionamiento, validar la navegación, probar funcionalidades principales y sobre todo documentar hallazgos reales.
 
-## Entregables incluidos
+# Entregables incluidos
 - plan de pruebas
 - casos de prueba
 - ejecución de pruebas
@@ -13,7 +13,7 @@ En esta primera etapa trabajé como QA manual sobre el sistema, enfocándome en 
 - checklist de regresión
 - evidencias
 
-## Tipos de pruebas aplicadas
+# Tipos de pruebas aplicadas
 
 - pruebas manuales
 - smoke testing
@@ -25,15 +25,15 @@ En esta primera etapa trabajé como QA manual sobre el sistema, enfocándome en 
 - pruebas de interfaz / UI
 - pruebas de usabilidad básicas
 
-# 🛠️ Etapa 2 - Testing con frameworks
+## 🛠️ Etapa 2 - Testing con frameworks
 
 En esta etapa llevé parte de las pruebas a automatización, usando dos frameworks distintos para comparar enfoques.
 
-## Frameworks utilizados
+# Frameworks utilizados
 - Selenium 
 - Robot Framework como segundo enfoque comparativo
 
-## Automatizaciones realizadas con Selenium
+# Automatizaciones realizadas con Selenium
 - smoke test
 - navegación principal
 - calculadora con datos válidos
@@ -41,12 +41,12 @@ En esta etapa llevé parte de las pruebas a automatización, usando dos framewor
 - simulador con datos válidos
 - simulador con casos negativos
 
-## Automatizaciones realizadas con Robot Framework
+# Automatizaciones realizadas con Robot Framework
 - smoke test
 - navegación principal
 - calculadora con datos válidos
 
-## Tipos de pruebas cubiertas en esta etapa
+# Tipos de pruebas cubiertas en esta etapa
 - smoke testing automatizado
 - pruebas funcionales automatizadas
 - pruebas negativas automatizadas
@@ -55,7 +55,7 @@ En esta etapa llevé parte de las pruebas a automatización, usando dos framewor
 
 - Esta etapa fue importante no solo por los tests que funcionaron, sino también por el proceso: hubo errores y ajustes.
 
-# 🤖 Etapa 3 - Testing asistido por IA
+## 🤖 Etapa 3 - Testing asistido por IA
 
 La tercera etapa estuvo orientada a usar inteligencia artificial como apoyo dentro del proceso.
 
@@ -81,7 +81,7 @@ La IA no fue usada como reemplazo del criterio humano, sino como herramienta de 
 
 - En esta parte también puse en práctica habilidades que tengo desarrolladas como Prompt Engineering (certificación en curso), buscando usar prompts con más intención, contexto y utilidad real dentro del testing.
 
-# Qué aprendí con este proyecto
+## Qué aprendí con este proyecto
 
 Este proyecto me permitió trabajar el testing desde distintas perspectivas:
 
@@ -92,9 +92,8 @@ Este proyecto me permitió trabajar el testing desde distintas perspectivas:
 - comparar frameworks
 - usar IA de forma más consciente dentro del testing
 
-- También me ayudó a ver que el valor del QA no está solo en “encontrar errores”, sino en analizar, documentar, mejorar cobertura y pensar el sistema de forma completa.
 
-# Valor académico y profesional
+## Valor académico y profesional
 
 Este proyecto también tiene valor académico porque conecta directamente con contenidos de mi formación en Pruebas de Sistemas, especialmente en temas como:
 
@@ -123,12 +122,12 @@ El proyecto quedó organizado en tres etapas completas:
 - https://github.com/joagonzalez26/sistema-estadistica-y-probabilidad
 
 
-# Autor
+## Autor
 
 Joaquín Lorenzo González
 
-Estudiante de Licenciatura en Informática
-Universidad Empresarial Siglo 21
+- Estudiante de Licenciatura en Informática
+- Universidad Empresarial Siglo 21
 
 ![Selenium](https://img.shields.io/badge/Selenium-43B02A?style=for-the-badge&logo=selenium&logoColor=white)
 ![Robot Framework](https://img.shields.io/badge/Robot_Framework-000000?style=for-the-badge&logo=robotframework&logoColor=white)
