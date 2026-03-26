@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.4.2 (Python 3.14.0 on darwin)" generated="2026-03-25T23:58:49.990693" rpa="false" schemaversion="5">
+<suite id="s1" name="Calculadora" source="/Users/joagonzalez/Desktop/qa-testing-sistema-estadistica/02-testing-con-frameworks/robot-framework/tests/calculadora.robot">
+<test id="s1-t1" name="Calculadora Con Datos Validos" line="9">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2026-03-25T23:58:50.042493" level="INFO">Opening browser 'Chrome' to base url 'http://127.0.0.1:5000/calculadora.html'.</msg>
+<arg>${URL}</arg>
+<arg>${BROWSER}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2026-03-25T23:58:50.042380" elapsed="1.876378"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2026-03-25T23:58:51.919968" elapsed="0.039025"/>
+</kw>
+<kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
+<arg>id=datos</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" start="2026-03-25T23:58:51.959192" elapsed="0.011422"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2026-03-25T23:58:51.971044" level="INFO">Typing text '4,8,15,16,23,42' into text field 'id=datos'.</msg>
+<arg>id=datos</arg>
+<arg>4,8,15,16,23,42</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2026-03-25T23:58:51.970773" elapsed="0.057330"/>
+</kw>
+<kw name="Click Button" owner="SeleniumLibrary">
+<msg time="2026-03-25T23:58:52.028370" level="INFO">Clicking button 'xpath=//button[contains(., 'Calcular')]'.</msg>
+<arg>xpath=//button[contains(., 'Calcular')]</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<status status="PASS" start="2026-03-25T23:58:52.028247" elapsed="0.023946"/>
+</kw>
+<kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
+<arg>id=resultados</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" start="2026-03-25T23:58:52.052408" elapsed="0.005280"/>
+</kw>
+<kw name="Element Should Contain" owner="SeleniumLibrary">
+<msg time="2026-03-25T23:58:52.064174" level="INFO">Element 'id=resultados' contains text 'Media:'.</msg>
+<arg>id=resultados</arg>
+<arg>Media:</arg>
+<doc>Verifies that element ``locator`` contains text ``expected``.</doc>
+<status status="PASS" start="2026-03-25T23:58:52.057786" elapsed="0.006424"/>
+</kw>
+<kw name="Element Should Contain" owner="SeleniumLibrary">
+<msg time="2026-03-25T23:58:52.068291" level="INFO">Element 'id=resultados' contains text '18.00'.</msg>
+<arg>id=resultados</arg>
+<arg>18.00</arg>
+<doc>Verifies that element ``locator`` contains text ``expected``.</doc>
+<status status="PASS" start="2026-03-25T23:58:52.064296" elapsed="0.004017"/>
+</kw>
+<kw name="Element Should Contain" owner="SeleniumLibrary">
+<msg time="2026-03-25T23:58:52.073617" level="INFO">Element 'id=resultados' contains text 'Mediana:'.</msg>
+<arg>id=resultados</arg>
+<arg>Mediana:</arg>
+<doc>Verifies that element ``locator`` contains text ``expected``.</doc>
+<status status="PASS" start="2026-03-25T23:58:52.068381" elapsed="0.005285"/>
+</kw>
+<kw name="Element Should Contain" owner="SeleniumLibrary">
+<msg time="2026-03-25T23:58:52.077955" level="INFO">Element 'id=resultados' contains text '15.50'.</msg>
+<arg>id=resultados</arg>
+<arg>15.50</arg>
+<doc>Verifies that element ``locator`` contains text ``expected``.</doc>
+<status status="PASS" start="2026-03-25T23:58:52.073795" elapsed="0.004185"/>
+</kw>
+<kw name="Element Should Contain" owner="SeleniumLibrary">
+<msg time="2026-03-25T23:58:52.081958" level="INFO">Element 'id=resultados' contains text 'Varianza:'.</msg>
+<arg>id=resultados</arg>
+<arg>Varianza:</arg>
+<doc>Verifies that element ``locator`` contains text ``expected``.</doc>
+<status status="PASS" start="2026-03-25T23:58:52.078050" elapsed="0.003939"/>
+</kw>
+<kw name="Element Should Contain" owner="SeleniumLibrary">
+<msg time="2026-03-25T23:58:52.086244" level="INFO">Element 'id=resultados' contains text '151.67'.</msg>
+<arg>id=resultados</arg>
+<arg>151.67</arg>
+<doc>Verifies that element ``locator`` contains text ``expected``.</doc>
+<status status="PASS" start="2026-03-25T23:58:52.082064" elapsed="0.004201"/>
+</kw>
+<kw name="Element Should Contain" owner="SeleniumLibrary">
+<msg time="2026-03-25T23:58:52.090731" level="INFO">Element 'id=resultados' contains text 'Desv. Estándar:'.</msg>
+<arg>id=resultados</arg>
+<arg>Desv. Estándar:</arg>
+<doc>Verifies that element ``locator`` contains text ``expected``.</doc>
+<status status="PASS" start="2026-03-25T23:58:52.086327" elapsed="0.004434"/>
+</kw>
+<kw name="Element Should Contain" owner="SeleniumLibrary">
+<msg time="2026-03-25T23:58:52.094847" level="INFO">Element 'id=resultados' contains text '12.32'.</msg>
+<arg>id=resultados</arg>
+<arg>12.32</arg>
+<doc>Verifies that element ``locator`` contains text ``expected``.</doc>
+<status status="PASS" start="2026-03-25T23:58:52.090836" elapsed="0.004041"/>
+</kw>
+<kw name="Close Browser" owner="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2026-03-25T23:58:52.094953" elapsed="0.065499"/>
+</kw>
+<status status="PASS" start="2026-03-25T23:58:50.042020" elapsed="2.118573"/>
+</test>
+<status status="PASS" start="2026-03-25T23:58:49.991362" elapsed="2.169448"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Calculadora" id="s1" pass="1" fail="0" skip="0">Calculadora</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
