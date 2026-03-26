@@ -1,4 +1,7 @@
-## Etapa 1 - Testing manual
+## <img width="863" height="486" alt="Captura de pantalla 2026-03-26 a la(s) 08 42 09" src="https://github.com/user-attachments/assets/1801c003-a3b8-4c1c-b9a2-bf0198241d35" />
+
+
+## 📝 Etapa 1 - Testing manual
 
 En esta primera etapa trabajé como QA manual sobre el sistema, enfocándome en comprender su funcionamiento, validar la navegación, probar funcionalidades principales y sobre todo documentar hallazgos reales.
 
@@ -9,14 +12,7 @@ ejecución de pruebas
 reporte de bugs
 checklist de regresión
 evidencias
-Qué se trabajó
-acceso al sistema
-navegación entre módulos
-calculadora estadística
-simulador de probabilidad
-validaciones de entradas
-revisión visual básica
-detección de inconsistencias funcionales y de UX
+
 Tipos de pruebas aplicadas
 pruebas manuales
 smoke testing
@@ -28,9 +24,9 @@ pruebas de regresión básicas
 pruebas de interfaz / UI
 pruebas de usabilidad básicas
 
-# Etapa 2 - Testing con frameworks
+## 🛠️ Etapa 2 - Testing con frameworks
 
-En esta etapa llevé parte de las pruebas a automatización, usando dos frameworks distintos para comparar enfoques y fortalecer la práctica de automation QA.
+En esta etapa llevé parte de las pruebas a automatización, usando dos frameworks distintos para comparar enfoques.
 
 # Frameworks utilizados
 Selenium 
@@ -55,20 +51,20 @@ pruebas negativas automatizadas
 pruebas de navegación automatizadas
 automatización UI web
 
-Esta etapa fue importante no solo por los tests que funcionaron, sino también por el proceso: hubo errores reales, ajustes de selectores, validaciones sobre el HTML del sistema y correcciones que me ayudaron a pensar como QA automation de verdad.
+Esta etapa fue importante no solo por los tests que funcionaron, sino también por el proceso: hubo errores y ajustes.
 
-# Etapa 3 - Testing asistido por IA
+## 🤖 Etapa 3 - Testing asistido por IA
 
-La tercera etapa estuvo orientada a usar inteligencia artificial como apoyo dentro del proceso QA, siempre sobre una base ya construida con testing manual y automatización previa.
+La tercera etapa estuvo orientada a usar inteligencia artificial como apoyo dentro del proceso.
 
 # La IA se utilizó para:
 
 proponer casos borde
 ampliar cobertura
 sugerir mejoras funcionales y de UX
-ayudar a refinar automatizaciones
 comparar enfoques de testing
-fortalecer la documentación del proyecto
+
+
 Documentación incluida
 prompts usados
 casos generados por IA
@@ -80,7 +76,7 @@ evidencias
 
 La IA no fue usada como reemplazo del criterio humano, sino como herramienta de apoyo estratégico.
 
-En esta parte también puse en práctica habilidades que vengo desarrollando en Prompt Engineering (certificación en curso), buscando usar prompts con más intención, contexto y utilidad real dentro del testing.
+En esta parte también puse en práctica habilidades que tengo desarrolladas como Prompt Engineering (certificación en curso), buscando usar prompts con más intención, contexto y utilidad real dentro del testing.
 
 # Qué aprendí con este proyecto
 
@@ -118,7 +114,7 @@ Etapa 2: testing con frameworks
 Etapa 3: testing asistido por IA
 
 
-# Este repositorio complementa al sistema principal de Estadística y Probabilidad, que fue utilizado como software bajo prueba.
+# IMPORTANTE > Este repositorio complementa al sistema principal de Estadística y Probabilidad, que fue utilizado como software bajo prueba.
 
 https://github.com/joagonzalez26/sistema-estadistica-y-probabilidad
 
@@ -130,6 +126,8 @@ Joaquín Lorenzo González
 Estudiante de Licenciatura en Informática
 Universidad Empresarial Siglo 21
 
-# Cierre personal
+![Selenium](https://img.shields.io/badge/Selenium-43B02A?style=for-the-badge&logo=selenium&logoColor=white)
+![Robot Framework](https://img.shields.io/badge/Robot_Framework-000000?style=for-the-badge&logo=robotframework&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 
-Este proyecto representa mucho para mí porque no fue solo una práctica técnica. Fue una forma de ponerme a prueba de verdad: primero como tester manual, después como QA automation y finalmente integrando IA de una forma más estratégica y profesional. ¡Y a por mucho más! 
+
