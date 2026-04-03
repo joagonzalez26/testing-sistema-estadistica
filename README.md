@@ -3,7 +3,7 @@
 
 # Etapa 1 - Testing manual
 
-En esta primera etapa trabajé como QA manual sobre el sistema, enfocándome en comprender su funcionamiento, validar la navegación, probar funcionalidades principales y sobre todo documentar hallazgos reales.
+En esta primera etapa trabajé como QA manual sobre el sistema, enfocándome en comprender su funcionamiento, validar la navegación, probar funcionalidades principales y sobre todo documentar situaciones encontradas reales.
 
 ## Entregables incluidos
 - plan de pruebas
