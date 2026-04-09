@@ -25,7 +25,7 @@ En esta primera etapa trabajé como QA manual sobre el sistema, enfocándome en 
 - pruebas de interfaz / UI
 - pruebas de usabilidad básicas
 
-# 🛠️ Etapa 2 - Testing con frameworks
+# Etapa 2 - Testing con frameworks
 
 En esta etapa llevé parte de las pruebas a automatización, usando dos frameworks distintos para comparar enfoques.
 
@@ -55,7 +55,7 @@ En esta etapa llevé parte de las pruebas a automatización, usando dos framewor
 
 - Esta etapa fue importante no solo por los tests que funcionaron, sino también por el proceso: hubo errores y ajustes.
 
-# 🤖 Etapa 3 - Testing asistido por IA
+# Etapa 3 - Testing asistido por IA
 
 La tercera etapa estuvo orientada a usar inteligencia artificial como apoyo dentro del proceso.
 
